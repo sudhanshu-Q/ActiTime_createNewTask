@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="57703" started-at="2020-11-03T12:28:45Z" finished-at="2020-11-03T12:29:43Z">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="57703" started-at="2020-11-03T12:28:45Z" finished-at="2020-11-03T12:29:43Z">
+      <class name="com.actiTime.test.TC_002_CreateNewTask">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actiTime.test.TC_002_CreateNewTask@6bdf28bb]" name="setUp" is-config="true" duration-ms="14780" started-at="2020-11-03T17:59:14Z" finished-at="2020-11-03T17:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewTask()[pri:0, instance:com.actiTime.test.TC_002_CreateNewTask@6bdf28bb]" name="createNewTask" duration-ms="13836" started-at="2020-11-03T17:59:29Z" finished-at="2020-11-03T17:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.actiTime.test.TC_002_CreateNewTask@6bdf28bb]" name="shutDown" is-config="true" duration-ms="0" started-at="2020-11-03T17:59:43Z" finished-at="2020-11-03T17:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.actiTime.test.TC_002_CreateNewTask -->
+      <class name="com.actiTime.test.TC_001_LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actiTime.test.TC_001_LoginPageTest@2d209079]" name="setUp" is-config="true" duration-ms="28046" started-at="2020-11-03T17:58:45Z" finished-at="2020-11-03T17:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.actiTime.test.TC_001_LoginPageTest@2d209079]" name="loginTest" duration-ms="926" started-at="2020-11-03T17:59:13Z" finished-at="2020-11-03T17:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.actiTime.test.TC_001_LoginPageTest@2d209079]" name="shutDown" is-config="true" duration-ms="1" started-at="2020-11-03T17:59:14Z" finished-at="2020-11-03T17:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.actiTime.test.TC_001_LoginPageTest -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Test Suite -->
+</testng-results>
